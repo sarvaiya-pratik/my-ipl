@@ -1,0 +1,53 @@
+.footer-container{
+    background-color:black ;
+    color: aliceblue;
+}
+.footer{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+   
+  
+    justify-content: space-around;
+
+}
+.last-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.social-media i{
+    padding: 4px;
+    margin-right: 3px;
+}
+
+@media screen and (max-width:460px) {
+    .footer{
+        display: block;
+    }
+    .team-container{
+        display: block;
+        text-align: center;
+    }
+    .guidelines-conatiner{
+        text-align: center;
+        display: block;
+    }
+    .contact-container{
+        text-align: center;
+        display: block;
+    }
+    .last-container{
+        display: block;
+    }
+    .social-media{
+       text-align: center;
+       font-size: 28px;
+    }
+    .copyright{
+        display: block;
+        text-align: center;
+    }
+   
+}
+

@@ -1,0 +1,55 @@
+const Imgbanner=[
+    {
+        id:1,
+        name:"gt",
+        Mysrc:"images/banner/GTBanner.png",
+    },
+    {
+        id:2,
+        name:"csk",
+        Mysrc:"images/banner/CSK.png",
+    },
+    {
+        id:3,
+        name:"dc",
+        Mysrc:"images/banner/DCBanner.png",
+    },
+    {
+        id:4,
+        name:"kkr",
+        Mysrc:"images/banner/KKRbanner.png",
+    },
+    {
+        id:5,
+        name:"lsg",
+        Mysrc:"images/banner/LSGbanner.png",
+    },
+    {
+        id:6,
+        name:"mi",
+        Mysrc:"images/banner/MIbanner.jpg",
+    },
+    {
+        id:7,
+        name:"pbks",
+        Mysrc:"images/banner/PBKSbanner.png",
+    },
+    {
+        id:8,
+        name:"rcb",
+        Mysrc:"images/banner/RCBbanner.png",
+    },
+    {
+        id:9,
+        name:"rr",
+        Mysrc:"images/banner/RRbanner.png",
+    },
+    {
+        id:10,
+        name:"srh",
+        Mysrc:"images/banner/SRHbanner.png",
+    },
+
+]
+
+export default Imgbanner;

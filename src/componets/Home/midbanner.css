@@ -1,0 +1,12 @@
+.team-banner img{
+    width: 100%;
+}
+
+@media screen and (max-width:470px) {
+    .team-banner img{
+        width: 100%;
+       height: 300px;
+     
+
+    }
+}

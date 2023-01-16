@@ -1,0 +1,26 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: lightblue;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.mid-card{
+    display: flex;
+    justify-content: space-around;
+}
+.address{
+    width: 40%;
+}
+.address h3,.contact-us h3{
+    border-bottom: 2px solid black;
+    text-align: center;
+ 
+}
+
+.heading h2{
+    color:orangered;
+}

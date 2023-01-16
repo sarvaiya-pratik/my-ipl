@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(21, 163, 116);
+    height: 75px;
+    color: white;
+}
+/* 
+.Logo {
+    font-size: 30px;
+} */
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+}
+
+.home,
+.about,
+.squad,
+.news,
+.signup {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.signup {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.signup:hover {
+   background-color:#ffffff;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width:825px) {
+
+    .Logo{
+        display: flex; 
+        position: absolute;
+        top: 15px;
+        left: 25px; 
+     } 
+    .nav-links {
+        display: none;
+
+    }
+
+    .nav-links-mobile {
+        position: absolute;
+       
+        list-style: none;
+        background-color: #005459;
+        z-index: 4;
+        left: 0;
+        top: 75px;
+        transition: all 0.5 ease-in-out;
+        width: 100%;
+    }
+
+    .home,
+    .about,
+    .squad,
+    .news
+    {
+        color: white;
+        text-align: center;
+        padding: 32px;
+        width: 100%;
+        transition: all 0.5 ease;
+    }
+
+    .signup {
+        display: block;
+        text-align: center;
+        padding: 2px;
+        width: 35%;
+        margin: 0px  auto 12px auto;
+        border: 1px solid lavender;
+        background-color:black;
+    }
+
+    .mobile-menu {
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        /* background-color: #005459;    */
+        background-color: rgb(21, 163, 116);
+        border: none;
+        outline: none;
+        top: 25px;
+        right: 25px;
+
+    }
+
+
+}

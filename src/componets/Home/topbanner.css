@@ -1,0 +1,21 @@
+.top-banner{
+    display: flex;
+   flex-wrap:wrap;
+    justify-content: space-around;
+   
+    
+    z-index:1;
+  
+   
+   padding: 5px;
+   background-color: rgb(238, 230, 205);
+}
+
+.top-banner img{
+    padding: 5px;
+}
+
+.top-banner img:hover{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 50%;
+}
